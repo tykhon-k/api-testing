@@ -1,5 +1,7 @@
 # API Testing
 
+[![CI status](https://github.com/tykhon-k/api-testing/actions/workflows/ci.yml/badge.svg)](https://github.com/tykhon-k/api-testing/actions/workflows/ci.yml)
+
 This project demonstrates my ability to design and implement a fully structured API test automation framework from scratch by using **JavaScript**, **Jest**, and **Axios**.
 
 Focused on clarity, best practices, and maintainability, it reflects how I approach backend testing in collaborative, production-ready environments.
