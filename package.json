@@ -1,0 +1,22 @@
+{
+  "name": "api-testing",
+  "version": "0.1.0",
+  "description": "API test automation across stacks: Playwright API (TypeScript), REST Assured (Java), and Postman/newman - against one deterministic local API.",
+  "type": "module",
+  "scripts": {
+    "api": "node api/server.mjs",
+    "test": "playwright test",
+    "postman": "newman run postman/bookstore.postman_collection.json -e postman/local.postman_environment.json",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.0.0",
+    "eslint": "^9.13.0",
+    "newman": "^6.2.0",
+    "typescript": "^5.6.0",
+    "typescript-eslint": "^8.10.0"
+  }
+}
